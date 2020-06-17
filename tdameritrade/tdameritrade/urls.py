@@ -1,0 +1,10 @@
+
+BASE = 'https://api.tdameritrade.com/v1/'
+ACCOUNTS = BASE + 'accounts/'
+ACCOUNTS_POST_ACCESS = BASE + 'oauth2/token'
+SEARCH = BASE + 'instruments'
+INSTRUMENTS = SEARCH + '/'
+QUOTES = BASE + 'marketdata/quotes'
+HISTORY = BASE + 'marketdata/%s/pricehistory'
+OPTIONCHAIN = BASE + 'marketdata/chains'
+MOVERS = BASE + 'marketdata/%s/movers'
